@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="final.css">
+    </head>
+
+    <body>
+        <h1>Drawing App!</h1>
+        <p>You may type in names of shapes you would like to draw once you click the "DRAW SHAPE" button. Then you may type in a color you would like the shape to be.</p>
+        <p>If you would rather draw your own shapes you may do so by moving your mouse and clicking to put a point on the screen. To complete a shape you must hover near your first point and click to lock in the shape. If you are in the middle of drawing a shape and wish to erase it, press the spacebar.</p>
+
+        <button class="center" id="shape">DRAW SHAPE</button>
+        <button class="center" id="randomColor">Random Color</button>
+        <button class="center" id="strokeSize">Increase Stroke Size (+2)</button> 
+        <button class="center" id="resetStrokeSize">Reset Stroke Size</button>
+        <p>Press the ENTER button to toggle on and off a pre drawn smiley face and use the arrow buttons to move it around the canvas!</p>
+        <p>Press 1 or 2 to get a background and 0 to reset the background!</p>
+        <h1 id="colorShape"></h1>
+        <h1 id="strokeSizeFeedback"></h1>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+        <script src="final.js"></script>
+    </body>
+</html>
